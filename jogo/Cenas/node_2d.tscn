@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cxk4fw5sgaelv"]
+
+[ext_resource type="Script" uid="uid://78ovhn5orcg4" path="res://Cenas/node_2d.gd" id="1_ipieb"]
+
+[node name="jogo" type="Node2D" unique_id=1976128530]
+script = ExtResource("1_ipieb")
+velocidade = null
+
+[node name="fundo" type="Sprite2D" parent="." unique_id=1852150445]
+
+[node name="fundo2" type="Sprite2D" parent="." unique_id=1729584063]
+
+[node name="chao" type="Sprite2D" parent="." unique_id=1716969094]
+
+[node name="chao2" type="Sprite2D" parent="." unique_id=87965351]
+
+[node name="chaofisico" type="StaticBody2D" parent="." unique_id=859338252]
+
+[node name="corpochao" type="CollisionShape2D" parent="chaofisico" unique_id=232516278]
